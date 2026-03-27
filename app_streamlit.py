@@ -12,7 +12,7 @@ doors = st.selectbox("Number of Doors", [2, 3, 4, 5], index=2)
 
 # Predict button
 if st.button("Predict Price"):
-    url = "http://127.0.0.1:5000/predict"  # Replace with your API URL
+    url = "https://car-price-prediction-1upd.onrender.com/predict"  # Replace with your API URL
 
     data = {
         "year": year,
